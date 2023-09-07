@@ -96,13 +96,13 @@ N.B : Props are Unidirectional. Data flows only from parent components to its ch
 
 ### What is Conditional Rendering?
 
-![[Pasted image 20230907192532.png]]
+![[./conditional-render.png]]
 
 - Conditional Rendering is the process of displaying different content based on certain conditions or states.
 - It allows you to create dynamic user interfaces that can adapt to changes in data and user interactions.
 - It can be done using If-else conditions or ternary operators or using logical operators( `&&` `||`  )
 
-![[Pasted image 20230907192426.png]]
+![[./conditional-render-2.png]]
 ### Why conditional rendering is Necessary in React Applications?
 
 - Improved User experience
