@@ -109,3 +109,29 @@ N.B : Props are Unidirectional. Data flows only from parent components to its ch
 - Improved performance 
 - Simplified Code 
 - Flexibility 
+
+### Some of the ways to do conditional rendering: 
+
+##### 1. Using If-else:
+```js
+function Greeting(props) {
+  const isLoggedIn = props.isLoggedIn;
+  if (isLoggedIn) {
+    return <UserGreeting />;
+  }
+  return <GuestGreeting />;
+}
+```
+
+##### 2. Using Ternary Operator: 
+```js
+function Greeting(props) {
+  const isLoggedIn = props.isLoggedIn;
+  return (
+  <div> 
+  { isLoggedIn ? (<UserGreeting />) : (<GuestGreeting />)
+  }
+  </div>
+  )
+}
+```
