@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "26d71df2e2c68285",
@@ -148,6 +149,8 @@
   },
   "active": "15bf550bfbc45181",
   "lastOpenFiles": [
+    "Pasted image 20230907192532.png",
+    "Pasted image 20230907192426.png",
     "React-Core-Concept-part1/React-banner.svg",
     "React-Core-Concept-part1/React-banner.svg.fdmdownload",
     "React-Core-Concept-part1/react-components@1.5x.svg",

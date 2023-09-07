@@ -88,6 +88,24 @@ export default function Profile(){
 
 - React Components use props to communicate with each other.
 - Every parent component can pass some information to its child components by giving them props.
-- You can pass any javascript value through props, including objects, arrays and functions.
+- You can pass any JavaScript value through props, including objects, arrays and functions.
 
 N.B : Props are Unidirectional. Data flows only from parent components to its child.
+
+---
+
+### What is Conditional Rendering?
+
+![[Pasted image 20230907192532.png]]
+
+- Conditional Rendering is the process of displaying different content based on certain conditions or states.
+- It allows you to create dynamic user interfaces that can adapt to changes in data and user interactions.
+- It can be done using If-else conditions or ternary operators or using logical operators( `&&` `||`  )
+
+![[Pasted image 20230907192426.png]]
+### Why conditional rendering is Necessary in React Applications?
+
+- Improved User experience
+- Improved performance 
+- Simplified Code 
+- Flexibility 
