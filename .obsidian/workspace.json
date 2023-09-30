@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSE/C++/README.md.md",
+                "file": "CSE/C++/README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSE/C++/README.md.md",
+                "file": "CSE/C++/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSE/C++/README.md.md",
+                "file": "CSE/C++/README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSE/C++/README.md.md"
+                "file": "CSE/C++/README.md"
               }
             }
           },
@@ -166,7 +166,7 @@
     "CSE/C++/images/i-am-learning-c++.png",
     "CSE/C++/images/first-hello-world.png",
     "CSE/C++/images",
-    "CSE/C++/README.md.md",
+    "CSE/C++/README.md",
     "React-Core-Concept-part2/README.md.md",
     "React-Core-Concept-part2/React-banner.svg",
     "README.md",
