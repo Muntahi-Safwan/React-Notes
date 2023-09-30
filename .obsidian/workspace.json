@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4d35f8e1ceb5eec8",
+        "id": "bf427833f0163ac9",
         "type": "tabs",
         "children": [
           {
-            "id": "15bf550bfbc45181",
+            "id": "b720433a99a3c530",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React-Core-Concept-part1/README.md",
+                "file": "CSE/C++/README.md.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "26d71df2e2c68285",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React-Core-Concept-part1/README.md",
+                "file": "CSE/C++/README.md.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React-Core-Concept-part1/README.md",
+                "file": "CSE/C++/README.md.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React-Core-Concept-part1/README.md"
+                "file": "CSE/C++/README.md.md"
+              }
+            }
+          },
+          {
+            "id": "2d7b2a018fa6c6b9",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -147,15 +156,33 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "15bf550bfbc45181",
+  "active": "b720433a99a3c530",
   "lastOpenFiles": [
-    "React-Core-Concept-part1/conditional-render-2.png",
-    "React-Core-Concept-part1/conditional-render.png",
-    "Pasted image 20230907192532.png",
-    "Pasted image 20230907192426.png",
-    "React-Core-Concept-part1/React-banner.svg",
-    "React-Core-Concept-part1/React-banner.svg.fdmdownload",
-    "React-Core-Concept-part1/react-components@1.5x.svg",
-    "README.md"
+    "CSE/C++/images/programming-101.png",
+    "CSE/C++/images/programming-101.png.fdmdownload",
+    "CSE/C++/images/C++.png",
+    "CSE/C++/images/C++.png.fdmdownload",
+    "CSE/C++/images/explain-hello-world.png",
+    "CSE/C++/images/i-am-learning-c++.png",
+    "CSE/C++/images/first-hello-world.png",
+    "CSE/C++/images",
+    "CSE/C++/README.md.md",
+    "React-Core-Concept-part2/README.md.md",
+    "React-Core-Concept-part2/React-banner.svg",
+    "README.md",
+    "CSE/Untitled.md",
+    "CSE/C++",
+    "Untitled.md",
+    "CSE",
+    "React-Core-Concept-part2/image-3.png.~tmp",
+    "React-Core-Concept-part2/image-3.png",
+    "React-Core-Concept-part2/useEffect-flowchart.png",
+    "React-Core-Concept-part2/useEffect-hook.png",
+    "React-Core-Concept-part2/react-hooks.jpg",
+    "React-Core-Concept-part2/react-hooks.jpg.fdmdownload",
+    "React-Core-Concept-part2/useState-hook.png",
+    "React-Core-Concept-part1/README.md",
+    "React-Core-Concept-part2",
+    "React-Core-Concept-part1/React-banner.svg.fdmdownload"
   ]
 }
