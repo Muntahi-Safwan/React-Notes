@@ -39,6 +39,8 @@ You tell the robot what to do, step by step, and it follows your instructions. I
 
 Programming is similar. You write instructions for a computer to follow, and the computer follows your instructions to complete a task. If your instructions are clear and concise, the computer will be able to complete the task without any problems. But if your instructions are unclear or incomplete, the computer will get confused and may not be able to complete the task.
 
+![](./images/robot.png)
+
 Here is a simple example:
 
 ```
@@ -87,6 +89,9 @@ Don't worry, you don't have to understand them right now. We will go through the
 >Just like a magic wand, C++ is a powerful tool, but it can also be dangerous if used incorrectly. It is important to learn how to use C++ safely and responsibly.
 
 Before getting to know this magic wand, lets get to know how it was born.
+
+![](./images/history-c++.jpg)
+	*Image Credit: Unstop*
 
 C++ was born in 1979, when Bjarne Stroustrup first started developing it. C++ was a small and simple language at first, but it grew and matured over time.
 
@@ -158,3 +163,259 @@ where `I am learning C++` gets displayed on the terminal/console. The `cout` is 
 And the `return 0` statement in the end of the `main()` function in C++ tells the operating system that the program has terminated successfully. 
 
 The operating system uses the return value from the `main()` function to determine how to exit the program. If the return value is 0, the operating system knows that the program terminated successfully. Otherwise, the operating system knows that the program terminated with an error.
+
+---
+
+#### Chapter-1: Variables and Constants
+
+Variables in C++ are like boxes that you can store information in.
+
+Imagine that you are a carpenter and you are building a bookshelf. You need to store the dimensions of the bookshelf somewhere, so you create a box to store the information.
+
+Variables in C++ work in a similar way. You can use variables to store different types of information, such as numbers, strings, and Boolean values.
+
+There are  different sizes and types of boxes/container to store information in which are known as different data types. These data types are :
+
+![](./images/data-type-table.png)
+
+- **int:** Whole numbers like 1, 2, 3, and 4 - a box of whole numbers from -2147483648 to 2147483647.
+- **float:** Decimal numbers like 3.14159 and 0.5 - a box of decimal numbers precise to at least 7 decimal places.
+- **double:** Even more precise decimal numbers than floats - a box of decimal numbers precise to at least 15 decimal places.
+- **char:** Single characters like 'a', 'b', and 'c' - a box of single characters from 'a' to 'z' and from 'A' to 'Z'.
+- **string:** Sequences of characters like "hello world" - a box of sequences of characters like "hello world" or "1234567890".
+- **bool:** True or false values - a box of true or false.
+
+we declare a variable in this format:
+```c++
+data_type variable_name = value;
+```
+ where in the data_type we will declare the variable type whether it will be an int or a float or string. such as 
+ ```c++
+ #include<iostream>
+ using namespace std;
+int main() 
+{
+	string language = "C++";
+	int my_number = 17;
+	float my_float = 3.1416;
+	char my_character = 'A';
+}
+```
+
+Variables can be used in two ways. We can first initialize the variable like `string language;`
+and then on another line we can declare the variable of the value like `language = "C++";`
+or another way is to initialize and declare in the same line. just like the below picture
+
+![](./images/declaration.png)
+
+There are some general rules for naming a variable. Those are
+
+1. Names can contain letters, digits and underscores
+
+2. Names must begin with a letter or an underscore (_)
+
+3. Names are case sensitive (myName and myname are different variables)
+
+4. Names cannot contain whitespaces or special characters like !, #, %, etc.
+
+5. Reserved words (like C++ keywords, such as int) cannot be used as names.
+
+__Identifiers :__ All C++ variables must be identified with unique names. These unique names are called identifiers.
+
+
+![](./images/constants.png)
+
+**Constants in C++ are variables that cannot be changed after they are initialized.**
+
+Constants are used to represent values that are known and will not change throughout the execution of a program. For example, you might use a constant to represent the acceleration due to gravity, or the number of days in a year.
+
+Constants are declared using the keyword `const`
+For example, the following code declares a constant called `PI` that represents the mathematical constant pi:
+
+```c++
+const double PI = 3.14159;
+```
+
+Once a constant is initialized, its value cannot be changed. For example, the following code would cause a compile-time error:
+
+```c++
+PI = 4.0; // This will cause a compile-time error!
+```
+
+Constants are a valuable tool for writing clear and concise code. They can help to make your code more readable and maintainable.
+
+Imagine that you have a box of constant values. You can put any value in the box, but once you put it in, you cannot take it out.
+
+Constants are like the values in this box. They are known and cannot be changed.
+
+
+---
+
+#### Chapter 2: Operators in C++
+
+
+![](./images/C++Operators.png)
+
+Operators in C++ are symbols that perform operations on variables and expressions.
+
+There are many different types of operators in C++, but they can be broadly categorized into the following groups:
+
+1. Arithmetic operators
+2. Assignment operators
+3. Comparison operators
+4. Logical operators
+
+
+##### 1. Arithmetic Operators: 
+
+Arithmetic operators in C++ are used to perform mathematical operations on numbers.
+The following table shows the most common arithmetic operators in C++:
+
+|  Operator | Name  | Description  | Example  |
+|---|---|---|---|
+| + | Addition | Adds together two values | a + b |
+| - | Subtraction | Subtracts one value from another | a - b |
+| * | Multiplication | Multiplies two values | a * b |
+| / | Division | Divides one value by another | a / b |
+| % | Modulus | Returns the division remainder | a % b |
+| ++ | Increment | Increases the value of a variable by 1 | ++a |
+| -- | Decrement | Decreases the value of a variable by 1 | --a |
+
+Arithmetic operators can be used to perform calculations on variables and expressions. For example, the following code calculates the sum of two numbers and assigns the result to a variable called `result`:
+
+```c++
+int a = 10;
+int b = 20;
+int result = a + b;
+```
+
+
+The following code calculates the average of three numbers and prints the result to the console:
+
+```c++
+int a = 10;
+int b = 20;
+int c = 30;
+
+float average = (a + b + c) / 3.0f;
+cout << "The average is: " << average << endl;
+```
+
+Arithmetic operators are a fundamental part of C++ programming. They allow you to perform calculations on numbers and variables.
+
+##### 2. Assignment Operators: 
+
+Assignment operators in C++ are used to assign values to variables.
+
+The following table shows the most common assignment operators in C++:
+
+| Operator | Description |
+|---|---|
+| `=` | Simple assignment | 
+| `+=` | Compound assignment (addition)|
+| `-=` | Compound assignment (subtraction)| 
+| `*=` | Compound assignment (multiplication)| 
+| `/=` | Compound assignment (division)|
+| `%=` | Compound assignment (modulo)|
+
+Assignment operators are used to store values in variables. For example, the following code assigns the value 10 to the variable `a`:
+
+```c++
+int a = 10;
+```
+
+The following code increments the value of the variable `a` by 1:
+
+```c++
+a += 1;
+```
+
+Assignment operators are a fundamental part of C++ programming. They allow you to store values in variables and manipulate them.
+
+Imagine that you have a box and you want to store a value in it. You use the assignment operators to put the value into the box.
+
+Assignment operators in C++ are like the boxes that you use to store values in your programs. They allow you to store values in variables and manipulate them.
+
+##### 3. Comparison Operators: 
+
+Comparison operators in C++ are used to compare two values and return a boolean value, which is either true or false.
+
+The following table shows the most common comparison operators in C++:
+
+| Operator | Description |
+|---|---|
+| `<` | Less than | 
+| `>` | Greater than |
+| `<=` | Less than or equal to |
+| `>=` | Greater than or equal to |
+| `==` | Equal to | 
+| `!=` | Not equal to |
+
+Comparison operators can be used in expressions to control the flow of your program. For example, you can use a comparison operator in a conditional statement to check if a condition is met.
+
+Here is an example of how to use a comparison operator in a conditional statement:
+
+```c++
+int a = 10;
+int b = 20;
+
+if (a < b) {
+  cout << "a is less than b" << endl;
+} else {
+  cout << "a is not less than b" << endl;
+}
+```
+
+Output:
+
+```
+a is less than b
+```
+
+Comparison operators are a powerful tool for writing conditional statements and other control flow statements in C++.
+
+Suppose you are a judge and you are comparing two people. You use the comparison operators to determine which person is taller, shorter, heavier, lighter, or older.
+
+Comparison operators in C++ are like the comparison tools that a judge uses. They allow you to compare two values and determine which value is greater or less than the other.
+
+##### 4. Logical Operators: 
+
+Logical operators in C++ are used to combine boolean values to produce new boolean values.
+
+The following table shows the most common logical operators in C++:
+
+| Operator | Description |
+|---|---|
+| `&&` | Logical AND |
+| <code>&#124;&#124;</code> | Logical OR |
+| `!` | Logical NOT |
+
+
+Logical operators can be used to control the flow of your program. For example, you can use a logical operator in a conditional statement to check if multiple conditions are met.
+
+Here is an example of how to use a logical operator in a conditional statement:
+
+```c++
+bool a = true;
+bool b = false;
+
+if (a && b) {
+  cout << "Both conditions are met" << endl;
+} else if (a || b) {
+  cout << "At least one condition is met" << endl;
+} else {
+  cout << "Neither condition is met" << endl;
+}
+```
+
+Output:
+
+```
+Neither condition is met
+```
+
+Logical operators are a powerful tool for writing conditional statements and other control flow statements in C++.
+
+Imagine that you are a judge and you are deciding a case. You use the logical operators to determine whether the defendant is guilty or not guilty.
+
+Logical operators in C++ are like the tools that a judge uses to determine the guilt or innocence of a defendant. They allow you to combine boolean values to produce new boolean values, which can be used to control the flow of your program.
